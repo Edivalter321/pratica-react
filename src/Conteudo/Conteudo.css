@@ -74,13 +74,13 @@
   margin-top: -8vh;
 }
 .caixa_02 {
-  background: #ffffff;
+  background: #f9f8fe;
   padding-left: 10vh;
   padding-right: 10vh;
 }
 .colecao {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   color: #474747;
   padding-top: 4vh;
@@ -144,14 +144,78 @@
   margin-top: -5.2rem;
   margin-left: 7.4rem;
 }
-.caixa_03 {
-}
 .colecao_02 {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #474747;
   padding-top: 6vh;
   padding-bottom: 4vh;
   text-align: center;
+}
+.caixa_03 {
+  background: #f9f8fe;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.imgs {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 150px;
+  background: #ffffff;
+  margin: 0.9rem;
+  cursor: pointer;
+}
+.img_01 {
+  width: 5vh;
+  height: 5vh;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+}
+.topicos {
+  display: flex;
+  justify-content: center;
+  margin-left: -0.6rem;
+}
+.topicos_a {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  color: #474747;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1.7rem;
+  margin-top: -0.4rem;
+  gap: 10px;
+}
+.textos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh;
+  background: #f9f8fe;
+}
+.prductos {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #474747;
+}
+.produtos_caixa {
+  display: flex;
+  align-items: center;
+}
+.verProdutos {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #c92071;
+}
+.arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
 }

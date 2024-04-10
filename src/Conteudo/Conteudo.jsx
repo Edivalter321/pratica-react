@@ -5,7 +5,13 @@ import imagemFogo from "./Assets/fogo.png";
 import imagemPontos from "./Assets/pontos.png";
 import imagemCamisa from "./Assets/Mask group.png";
 import imagemTennis from "./Assets/tennis_02.png";
-import imagemHeaderPhone from "./Assets/headerphone.png";
+import imagemHeadPhone from "./Assets/headerphone.png";
+import imagemShirt from "./Assets/shirt_des.png";
+import imagemCalca from "./Assets/calcas_des.png";
+import imagemBone from "./Assets/bone_des.png";
+import imagemHPhone from "./Assets/headphone_des.png";
+import imagemTTenis from "./Assets/tennis_des.png";
+import imagemArrow from "./Assets/arrow.png";
 
 function Conteudo() {
   return (
@@ -53,12 +59,57 @@ function Conteudo() {
             <p className="yelow">30% OFF</p>
             <h3 className="preco">Novo Beats Bass</h3>
             <button className="botao_compra">Comprar</button>
-            <img src={imagemHeaderPhone} alt="headPhone" className="imagem" />
+            <img src={imagemHeadPhone} alt="headPhone" className="imagem" />
           </div>
         </div>
       </div>
       <div className="caixa_03">
         <p className="colecao_02">Coleção em destaque</p>
+        <div className="img">
+          <div className="imgs">
+            <img src={imagemShirt} alt="camisa" className="img_01" />
+          </div>
+          <div className="imgs">
+            <img src={imagemCalca} alt="calça" className="img_01" />
+          </div>
+          <div className="imgs">
+            <img src={imagemBone} alt="bone" className="img_01" />
+          </div>
+          <div className="imgs">
+            <img src={imagemHPhone} alt="headphones" className="img_01" />
+          </div>
+          <div className="imgs">
+            <img src={imagemTTenis} alt="tenis" className="img_01" />
+          </div>
+        </div>
+        <div className="topicos">
+          <a href="#" id="" className="topicos_a">
+            Camisetas
+          </a>
+          <a href="#" id="" className="topicos_a">
+            Calças
+          </a>
+          <a href="#" id="" className="topicos_a">
+            Bonés
+          </a>
+          <a href="#" id="" className="topicos_a">
+            HeadPhones
+          </a>
+          <a href="#" id="" className="topicos_a">
+            Tênis
+          </a>
+        </div>
+      </div>
+      <div className="caixa_4">
+        <div className="textos">
+          <div className="prductos">
+            <p>Produtos em alta</p>
+          </div>
+          <div className="produtos_caixa">
+            <a className="verProdutos" href="#">Ver todos </a>
+            <img className="arrow" src={imagemArrow} alt="flecha" />
+          </div>
+        </div>
       </div>
     </>
   );
