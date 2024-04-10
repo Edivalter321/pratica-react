@@ -30,6 +30,14 @@ function Conteudo() {
           <img src={imagemPontos} alt="pontos" className="pontos" />
         </div>
       </div>
+      <div className="caixa_02">
+        <p className="">Coleção em Destaque</p>
+        <div className="caixas">
+          <div className="caixas_01"></div>
+          <div className="caixas_02"></div>
+          <div className="caixas_02"></div>
+        </div>
+      </div>
     </>
   );
 }
