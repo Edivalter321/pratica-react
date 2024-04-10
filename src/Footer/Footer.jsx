@@ -2,7 +2,12 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
-      <h1>Footer</h1>
+      <div className="barra_final">
+        <div className="parte_01"></div>
+        <div className="parte_02"></div>
+        <div className="parte_03"></div>
+        <div className="parte_04"></div>
+      </div>
     </>
   );
 }
