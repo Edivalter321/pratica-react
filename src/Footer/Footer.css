@@ -1,0 +1,84 @@
+.barra_final {
+  background-color: #1f1f1f;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  display: flex;
+  justify-content: space-between;
+  height: 35vh;
+  padding-top: 10vh;
+}
+.parte_01 {
+  width: 35vh;
+}
+.logo {
+  width: 28vh;
+  height: 5vh;
+}
+.paragrafo_a01 {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 15px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.img_a01 {
+  width: 2vh;
+  height: 2vh;
+  margin-right: 3vh;
+}
+.parte_02 {
+  width: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+.titulo_p2 {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-family: 400;
+  color: #ffffff;
+  margin-top: 1vh;
+  margin-bottom: 2.5vh;
+}
+.links {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-family: 400;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 26px;
+}
+.parte_03 {
+  width: 25vh;
+  display: flex;
+  flex-direction: column;
+}
+.parte_04 {
+  width: 30vh;
+}
+.paragrafo_p3 {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-family: 400;
+  color: #ffffff;
+  line-height: 24px;
+}
+.final {
+  background-color: #1f1f1f;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  height: 5vh;
+}
+.row {
+  border: 0.5px solid #ffffff;
+  color: #ffffff;
+}
+.p_final {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-family: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1vh;
+}
