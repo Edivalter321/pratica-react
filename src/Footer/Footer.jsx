@@ -15,13 +15,13 @@ function Footer() {
             voluptatibus qui!
           </p>
           <a href="https://pt-br.facebook.com/">
-            <img src={imagemFace} alt="logo_face" className="img_a01" />
+            <img src={imagemFace} alt="logo_face" className="img_f01" />
           </a>
           <a href="https://www.instagram.com/">
-            <img src={imagemInsta} alt="logo_insta" className="img_a01" />
+            <img src={imagemInsta} alt="logo_insta" className="img_f01" />
           </a>
           <a href="https://twitter.com/">
-            <img src={imagemX} alt="logo_x" className="img_a01" />
+            <img src={imagemX} alt="logo_x" className="img_f01" />
           </a>
         </div>
         <div className="parte_02">

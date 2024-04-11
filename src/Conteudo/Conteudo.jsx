@@ -18,6 +18,7 @@ import imagemTenisTres from "./Assets/tennis_03.png";
 function Conteudo() {
   return (
     <>
+  
       <div className="corpo">
         <div className="caixa_01">
           <div className="caixa_a">
@@ -69,19 +70,19 @@ function Conteudo() {
         <p className="colecao_02">Coleção em destaque</p>
         <div className="img">
           <div className="imgs">
-            <img src={imagemShirt} alt="camisa" className="img_01" />
+            <img src={imagemShirt} alt="camisa" className="imgs_01" />
           </div>
           <div className="imgs">
-            <img src={imagemCalca} alt="calça" className="img_01" />
+            <img src={imagemCalca} alt="calça" className="imgs_01" />
           </div>
           <div className="imgs">
-            <img src={imagemBone} alt="bone" className="img_01" />
+            <img src={imagemBone} alt="bone" className="imgs_01" />
           </div>
           <div className="imgs">
-            <img src={imagemHPhone} alt="headphones" className="img_01" />
+            <img src={imagemHPhone} alt="headphones" className="imgs_01" />
           </div>
           <div className="imgs">
-            <img src={imagemTTenis} alt="tenis" className="img_01" />
+            <img src={imagemTTenis} alt="tenis" className="imgs_01" />
           </div>
         </div>
         <div className="topicos">
