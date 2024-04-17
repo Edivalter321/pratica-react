@@ -12,14 +12,13 @@ import imagemBone from "./Assets/bone_des.png";
 import imagemHPhone from "./Assets/headphone_des.png";
 import imagemTTenis from "./Assets/tennis_des.png";
 import imagemArrow from "./Assets/arrow.png";
-import imagemTeNis from "./Assets/tennis_01.png";
 import imagemTenisTres from "./Assets/tennis_03.png";
+import Card from "../Components/Card/Card";
 
 function Conteudo() {
   return (
     <>
-  
-      <div className="corpo">
+      <section className="corpo">
         <div className="caixa_01">
           <div className="caixa_a">
             <p className="oferta">Melhores ofertas personalizadas</p>
@@ -41,8 +40,8 @@ function Conteudo() {
         <div className="pontos_1">
           <img src={imagemPontos} alt="pontos" className="pontos" />
         </div>
-      </div>
-      <div className="caixa_02">
+      </section>
+      <section className="caixa_02">
         <p className="colecao">Coleção em destaque</p>
         <div className="caixas">
           <div className="caixas_a">
@@ -65,7 +64,7 @@ function Conteudo() {
             <img src={imagemHeadPhone} alt="headPhone" className="imagem" />
           </div>
         </div>
-      </div>
+      </section>
       <div className="caixa_03">
         <p className="colecao_02">Coleção em destaque</p>
         <div className="img">
@@ -116,96 +115,20 @@ function Conteudo() {
           </div>
         </div>
       </div>
-      <div className="caixasDProdutos">
-        <div className="infoProdutos">
-          <p className="yelows">30% OFF</p>
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <p className="yelows">30% OFF</p>
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-      </div>
-      <div className="texts">
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-      </div>
-      <div className="caixasDProdutos_b">
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-        <div className="infoProdutos">
-          <img className="TeNis" src={imagemTeNis} alt="tenis" />
-        </div>
-      </div>
-      <div className="texts">
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-        <div className="texts_a">
-          <p className="titulo_a">Tênis</p>
-          <h6 className="titulo_b">K-Swiss V8 - Masculino</h6>
-          <p className="titulo_c">
-            <span>$200</span> <strong>$100</strong>
-          </p>
-        </div>
-      </div>
+      <section className="bloco_a">
+        <section className="Cards_produtos">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </section>
+        <section className="Cards_produtos">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </section>
+      </section>
       <div className="divisa"></div>
       <div className="caixa_5">
         <div className="lado_a">
