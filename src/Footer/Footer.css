@@ -1,10 +1,13 @@
-.barra_final {
+.Footer {
+  height: 20vh;
   background-color: #1f1f1f;
+  height: 46vh;
+}
+.barra_final {
   padding-left: 5%;
   padding-right: 5%;
   display: flex;
   justify-content: space-between;
-  height: 45vh;
   padding-top: 5%;
 }
 .parte_01 {

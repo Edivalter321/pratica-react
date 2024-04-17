@@ -230,14 +230,14 @@
   height: 1.5rem;
   cursor: pointer;
 }
-.caixasDProdutos {
+/* .caixasDProdutos {
   display: flex;
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
   background: #f9f8fe;
   margin-top: -4%;
-}
+} */
 .infoProdutos {
   width: 40vh;
   height: 40vh;
@@ -299,7 +299,7 @@
 }
 .titulo_c {
   font-family: sans-serif;
-  font-size: 1.8vh;
+  font-size: 2vh;
   font-weight: 500;
   color: #474747;
   letter-spacing: 0.75px;
@@ -307,8 +307,10 @@
   margin-top: 1vh;
 }
 .titulo_c span {
+  font-size: 1.9vh;
   text-decoration: line-through;
   color: #8f8f8f;
+  margin-right: 0.5vh;
 }
 .caixasDProdutos_b {
   display: flex;
@@ -386,4 +388,9 @@
   border-radius: 8px;
   margin-top: 2%;
   cursor: pointer;
+}
+.Cards_produtos {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
